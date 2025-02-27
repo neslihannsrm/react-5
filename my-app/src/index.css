@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 
-/* Genel Stiller */
 body {
   display: flex;
   justify-content: center;
@@ -69,7 +68,7 @@ a:hover {
   margin-left: 10px;
 }
 
-/* Arama Kutusu */
+/* Search Bar*/
 .search-container {
   display: flex;
   align-items: center;
@@ -148,11 +147,11 @@ a:hover {
   margin-right: 32px;
 }
 
+/*img*/
 
 .img-container {
   display: flex;
   justify-content: baseline;
-  
   width: 500px;
   height: 800px;
   overflow: hidden;
