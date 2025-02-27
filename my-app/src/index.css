@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/* Genel Stiller */
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fcf6ff;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1280px;
+  margin-top: 122px;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+}
+
+.logo {
+  font: normal 700 30px/37.88px "Oxygen", sans-serif;
+  color: #b742ff;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 62px;
+  width: 544px;
+  height: 25px;
+}
+
+li {
+  font: normal 400 20px/25.25px "Oxygen", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #8b8a8b;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #b742ff;
+}
+
+.signIn {
+  font: normal 400 20px "Oxygen", sans-serif;
+  color: #b742ff;
+  cursor: pointer;
+}
+
+.signIn:hover {
+  color: #8b8a8b;
+}
+
+.arrowIcon {
+  margin-left: 10px;
+}
+
+/* Arama Kutusu */
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 740px;
+  height: 67px;
+  background: #fff;
+  border: 1px solid #b742ff;
+  border-radius: 15px;
+  padding-right: 3px;
+}
+
+.search-field {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font: normal 20px "Oxygen", sans-serif;
+  color: #c3c0c5;
+  padding: 5px 20px;
+}
+
+::placeholder {
+  color: #c3c0c5;
+}
+
+.search-icon {
+  margin-left: 17px;
+}
+
+.search-btn {
+  width: 146px;
+  height: 61px;
+  background: #b742ff;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font: normal 400 20px "Oxygen", sans-serif;
+  cursor: pointer;
+  
+}
+
+.search-btn:hover {
+  background: #d8b5e9;
+}
+
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  width: 740px;
+  height: 256px;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px rgba(183, 66, 255, 0.1);
+}
+
+.options-li {
+  display: flex;
+  align-items: center;
+  width: 711px;
+  min-height: 51px;
+  border-radius: 7px;
+}
+
+.options-text {
+  font: normal 400 20px "Oxygen", sans-serif;
+}
+
+.options-li:hover {
+  background: #f7eefc;
+}
+
+.clock-icon {
+  margin-right: 32px;
+}
+
+
+.img-container {
+  display: flex;
+  justify-content: baseline;
+  
+  width: 500px;
+  height: 800px;
+  overflow: hidden;
+}
